@@ -20,8 +20,7 @@ function Calculator() {
 
     const handleCalculate = () => {
         try {
-            let finalResult = eval(result).toString()
-            setResult(finalResult.substr(0, 5))
+            setResult(eval(result).toString())
         }
         catch (error) {
             setResult("Error")
@@ -30,6 +29,7 @@ function Calculator() {
 
     return (
         <main className='Calculator-Container'>
+
             <div className='Calculator'>
 
                 <input
@@ -62,6 +62,7 @@ function Calculator() {
                 </div>
 
             </div>
+            
         </main>
     )
 }

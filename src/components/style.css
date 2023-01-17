@@ -1,5 +1,6 @@
 .Calculator-Container {
     display: flex;
+    flex-direction: column;
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -22,7 +23,7 @@
 
 .Calculator-Result {
     width: 90%;
-    height: 85px;
+    height: 95px;
     background-color: white;
     border: solid 2px orangered;
     font-size: 35px;
@@ -31,6 +32,7 @@
     border-radius: 10px;
     color: orangered;
     padding: 5px;
+    text-overflow: ellipsis;
 }
 
 .Calculator-Keypad {
