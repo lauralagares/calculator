@@ -20,7 +20,7 @@ function Calculator() {
     const handleCalculate = () => {
         try {
             let finalResult = eval(result).toString()
-            setResult(finalResult.substr(0,5))
+            setResult(finalResult.substr(0, 5))
         }
         catch (error) {
             setResult("Error")
