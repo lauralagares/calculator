@@ -34,7 +34,7 @@ function Calculator() {
                 <input
                     className='Calculator-Result'
                     type="text"
-                    value={result}>
+                    defaultValue={result}>
 
                 </input>
 

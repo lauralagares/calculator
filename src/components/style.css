@@ -3,7 +3,7 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(180deg, rgba(255,243,153,1) 33%, rgba(255,160,131,1) 100%);
+    /* background: linear-gradient(180deg, rgba(255,243,153,1) 33%, rgba(255,160,131,1) 100%); */
 }
 
 .Calculator {
@@ -18,6 +18,7 @@
     background-color: #3e3f3d;
     border-radius: 10px;
     border: solid 2px orangered;
+    box-shadow: 0px 5px 15px 5px gray;
 }
 
 .Calculator-Result {
@@ -48,7 +49,7 @@
 }
 
 .Calculator-Keypad>button:active{
-    transform: scale(0.99);
+    transform: scale(0.97);
 }
 
 .Special-Button {
