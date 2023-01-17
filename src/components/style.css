@@ -1,0 +1,68 @@
+.Calculator-Container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(255,243,153,1) 33%, rgba(255,160,131,1) 100%);
+}
+
+.Calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    height: 450px;
+    padding: 30px 15px 30px 15px; 
+    gap: 15px;
+    background-color: #3e3f3d;
+    border-radius: 10px;
+    border: solid 2px orangered;
+}
+
+.Calculator-Result {
+    width: 90%;
+    height: 85px;
+    background-color: white;
+    border: solid 2px orangered;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    color: orangered;
+    padding: 5px;
+}
+
+.Calculator-Keypad {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.Calculator-Keypad>button {
+    height: 65px;
+    font-size: 25px;
+    border: solid 2px #3e3f3d;
+    cursor: pointer;
+    color: white;
+}
+
+.Calculator-Keypad>button:active{
+    transform: scale(0.99);
+}
+
+.Special-Button {
+    width: 50%;
+}
+
+.Regular-Button {
+    width: 25%;
+}
+
+.Number {
+    background-color: lightsalmon;
+}
+
+.Operator {
+    background-color: orangered;
+}
